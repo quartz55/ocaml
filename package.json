@@ -7,7 +7,7 @@
   ],
   "esy": {
     "build": [
-      "./esy-configure -no-cfi -prefix $cur__install -with-debug-runtime -flambda -cc 'musl-gcc -Os' -aspp 'musl-gcc -c' -libs -static -no-curses -no-graph -no-shared-libs",
+      "./esy-configure -no-cfi -prefix $cur__install -with-debug-runtime -flambda -cc 'musl-gcc -Os' -aspp 'musl-gcc -c' -libs -static -no-curses -no-graph",
       "./esy-build"
     ],
     "buildsInSource": true,
